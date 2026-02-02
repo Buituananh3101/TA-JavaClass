@@ -1,4 +1,4 @@
-package v05_TruuTuong_Clean_;
+package BaiTapSlide.s030501_IShape_;
 
 /**
  * Class đại diện cho đoạn thẳng (Line segment)
