@@ -7,9 +7,9 @@ public class v0305_BTString2_ {
 
         String[] so = si.split("\\s+");
 
-        for (String string : so) {
-            for(int i=0;i<string.length();i++){
-                if(!String.valueOf(string.charAt(i)).matches("^[0-9.+\\-]+$")){
+        for (String c : so) {
+            for(int i=0;i<c.length();i++){
+                if(!String.valueOf(c.charAt(i)).matches("^[0-9.+\\-]+$")){
                     System.out.println("No");
                     return;
                 };
